@@ -1,0 +1,195 @@
+/* Common CSS */
+body 
+    {
+      background: linear-gradient(to left, cyan, lightcyan);
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar 
+    {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    main 
+    {
+      padding: 20px;
+    }
+
+    button 
+    {
+      padding: 12px;
+      background: red;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 16px;
+      transition: background 0.3s ease;
+      vertical-align: middle;
+    }
+
+    /* CSS for store webpage */
+    .product-grid 
+    {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card 
+    {
+      background: linear-gradient(to bottom right, #0a1f44, #3b3f4e);
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      text-align: center;
+      color: white;
+      position: relative;
+      overflow: visible;
+      display: flex; 
+      flex-direction: column;
+      justify-content: space-between; 
+      min-height: 300px;
+    }
+
+    .product-card img 
+    {
+    max-width: 100%;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 10px;
+      
+    }
+
+    .product-card h3 
+    {
+      margin: 10px 0 5px;
+    }
+
+    .product-card p 
+    {
+      color: white;
+    }
+
+.search-section 
+{
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+
+}
+
+#searchInput 
+{
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  max-width: 100%;
+
+}
+
+#searchInput:focus 
+{
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+
+/* CSS for about webpage */
+        .container 
+        {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px
+        }
+
+        .about-section 
+        {
+            background-color: none;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .about-section h2 
+        {
+            color: #1a73e8;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+
+        .about-section p 
+        {
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        .contact-info 
+        {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: none;
+            border-radius: 5px;
+        }
+
+        .contact-info p 
+        {
+            margin: 20px 0;
+        }
+
+        .contact-info a 
+        {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover 
+        {
+            text-decoration: underline;
+        }
+
+        .mission 
+        {
+            background-color: #e8f0fe;
+            padding: 20px;
+            border-left: 5px solid #1a73e8;
+            margin-top: 20px;
+        }
+
+        footer 
+        {
+            background-color: #1a73e8;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p 
+        {
+            margin: 0.3rem 0;
+        }
+
+        footer a 
+        {
+            color: #e8f0fe;
+            text-decoration: none;
+        }
+
+        footer a:hover 
+        {
+            text-decoration: underline;
+        }

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <h1 style="margin: 0px;">CircuitCrate</h1>
+      <a href="store.html" style="color: white; text-decoration: none; margin-right: 20px;">Store</a>
+      <a href="about.html" style="color: white; text-decoration: none; margin-right: 20px;">About Us</a>
+    <button onclick="details()" style="width: 100px;">Details</button>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+    <main>
+    <section class="search-section">
+      <input type="text" id="searchInput" placeholder="Search products..." onkeyup="searchProducts()">
+    </section>
+    <section class="product-grid" id="productGrid">
+      <div class="product-card">
+        <img src="https://lh6.googleusercontent.com/proxy/2Vxdvqia2I7wDGfHmWxSHFihpTdXt5yctJQ5-PrRMDVZfc7BWeLwjwpVTjknXvuRLDreCcBFWmFyqOFkLh_yDcN15LNiOwI2ttWojy9f4OgO5tBDLmgcZfREgD7-F6w" alt="Arduino Uno R3">
+        <h3>Arduino Uno R3</h3>
+        <p>₨5,600</p>
+       
+      </div>
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7IzpzkaNuypYeX3llLaan3CCZScNW-xXxg&s" alt="Arduino Nano Every">
+        <h3>Arduino Nano Every</h3>
+        <p>₨3,360</p>
+      </div>
+      <div class="product-card">
+        <img src="https://www.majju.pk/assets/uploads/2020/08/1-DHT11-Temperature-Humidity-Sensor-Module.webp" alt="DHT11 Temperature and Humidity Sensor">
+        <h3>DHT11 Temperature and Humidity Sensor</h3>
+        <p>₨560</p>
+   
+      </div>
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpiB1QBAmUblSc3TyJGPpcHr3shAvLiHhnBw&s" alt="DHT22 Temperature and Humidity Sensor">
+        <h3>DHT22 Temperature and Humidity Sensor</h3>
+        <p>₨1,120</p>
+      
+      </div>
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ81ifionWj8jq4lNmXea9BPQRDUuUpcgYRw&s" alt="HC-SR04 Ultrasonic Sensor">
+        <h3>HC-SR04 Ultrasonic Sensor</h3>
+        <p>₨420</p>
+        
+      </div>
+      <div class="product-card">
+        <img src="https://electrobes.com/wp-content/uploads/2020/10/Analog-Output-LM393-Optical-Photosensitive-LDR-light-sensor-module-In-Pakistan-1.webp" alt="LDR Light Sensor">
+        <h3>LDR Light Sensor</h3>
+        <p>₨280</p>
+        
+      </div>
+      <div class="product-card">
+        <img src="https://electrobes.com/wp-content/uploads/2019/05/60020.jpg" alt="MQ-2 Gas Sensor">
+        <h3>MQ-2 Gas Sensor</h3>
+        <p>₨560</p>
+       
+      </div>
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8A6gY5ZH5xXaqeonLp1bUh8LzBfBY3VUvaw&s" alt="PIR Motion Sensor">
+        <h3>PIR Motion Sensor</h3>
+        <p>₨700</p>
+
+      </div>
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkL2uMvQjl0kM0ALaly7bz-sJxTDfQIR88-w&s" alt="KY-013 Analog Temperature Sensor">
+        <h3>KY-013 Analog Temperature Sensor</h3>
+        <p>₨420</p>
+      
+      </div>
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkI_xUim5x5bBnFkLOtb4D-zeKxeFE6QQ8lA&s" alt="ESP8266 WiFi Module">
+        <h3>ESP8266 WiFi Module</h3>
+        <p>₨1,120</p>
+        
+      </div>
+      <div class="product-card">
+        <img src="https://cdn-reichelt.de/resize/600%2F-/web/xxl_ws/A300%2FADAFRUIT-2479-30091188-01.png?type=ProductXxl&resize=600%252F-&" alt="Bluefruit LE Bluetooth Module">
+        <h3>Bluefruit LE Bluetooth Module</h3>
+        <p>₨4,200</p>
+      
+      </div>
+      <div class="product-card">
+        <img src="https://w11stop.com/image/cache/EmbeddedBoards/Arduino/1-Channel-5V-550x550w.jpg.webp" alt="Single Channel 5V Relay Module">
+        <h3>Single Channel 5V Relay Module</h3>
+        <p>₨560</p>
+      
+      </div>
+      <div class="product-card">
+        <img src="https://i0.wp.com/myduino.com/wp-content/uploads/2020/05/I2C-16x2-LCD-Green-01.png?fit=600%2C600&ssl=1" alt="16x2 LCD Display with I2C">
+        <h3>16x2 LCD Display with I2C</h3>
+        <p>₨1,400</p>
+        
+      </div>
+      <div class="product-card">
+        <img src="https://smartbitbn.com/wp-content/uploads/2022/02/SG90-Micro-Servo-Brunei.jpg" alt="SG90 Micro Servo Motor">
+        <h3>SG90 Micro Servo Motor</h3>
+        <p>₨560</p>
+        
+      </div>
+      <div class="product-card">
+        <img src="https://electrobes.com/wp-content/uploads/2019/11/L298N-Dual-H-Bridge-Motor-Driver-Module-Stepper-Motor-Driver-Module-for-DIY-Arduino-at-best-price-in-pakistan.webp" alt="L298N Motor Driver Module">
+        <h3>L298N Motor Driver Module</h3>
+        <p>₨840</p>
+        
+      </div>
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTevhKvz_0dBrX7XnqUalRozzkQ7BOuoCJ1PQ&s" alt="400-Point Breadboard">
+        <h3>400-Point Breadboard</h3>
+        <p>₨420</p>
+        
+      </div>
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/81UxB4uqVML._AC_UF1000,1000_QL80_.jpg" alt="Assorted Resistor Kit (100 pcs)">
+        <h3>Assorted Resistor Kit (100 pcs)</h3>
+        <p>₨280</p>
+        
+      </div>
+      <div class="product-card">
+        <img src="https://static-01.daraz.pk/p/96fc82d1dfcaf8f6320aaa4245536448.jpg" alt="RGB LED Module">
+        <h3>RGB LED Module</h3>
+        <p>₨420</p>
+      
+      </div>
+      <div class="product-card">
+        <img src="https://www.circuittest.com/Media/400/push-04.jpg" alt="Push Button Module">
+        <h3>Push Button Module</h3>
+        <p>₨280</p>
+        
+      </div>
+      <div class="product-card">
+        <img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2020/12/MPU6050-Module-Accelerometer-Gyroscope-Temperature-Sensor.jpg?resize=750%2C422&quality=100&strip=all&ssl=1" alt="MPU-6050 Gyroscope and Accelerometer">
+        <h3>MPU-6050 Gyroscope and Accelerometer</h3>
+        <p>₨840</p>
+        
+      </div>
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHyRddLxByVp82kIgazcU0YNqtRyodquTdnQ&s" alt="Arduino Nano 33 IoT">
+        <h3>Arduino Nano 33 IoT</h3>
+        <p>₨4,200</p>
+        
+      </div>
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC3bHJKkz8_6Nzx41ll0I4G77fcR2R-GdjHA&s" alt="Adafruit Feather M0 WiFi">
+        <h3>Adafruit Feather M0 WiFi</h3>
+        <p>₨5,600</p>
+      </div>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
