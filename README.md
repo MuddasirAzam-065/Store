@@ -79,28 +79,6 @@ After login, you will be redirected to the **Store Page**.
 
 ---
 
-## 🛍️ Products Included
-
-The store contains multiple electronics components such as:
-
-- Arduino Uno R3
-- Arduino Nano
-- ESP8266 WiFi Module
-- DHT11 / DHT22 Sensors
-- PIR Motion Sensor
-- Ultrasonic Sensor
-- Servo Motor
-- Breadboard
-- Resistor Kit
-- LCD Display
-- Motor Driver
-- Bluetooth Module
-- IoT Boards
-
-and many more.
-
----
-
 ## 🔎 Search Feature
 
 The store includes a **live search feature** that allows users to filter products instantly by typing in the search bar.
@@ -115,31 +93,15 @@ This will display only Arduino-related products.
 
 ---
 
-## 📸 Screenshots
+## 📸 UI
 
 You can add screenshots of your project here.
 
 ### Login Page
-```
-![Login Page](images/login.png)
-```
+<img width="1365" height="604" alt="2" src="https://github.com/user-attachments/assets/7a2ab877-57ac-4456-ab69-a0ab5b6ce7b8" />
 
 ### Store Page
-```
-![Store Page](images/store.png)
-```
-
-### Product Details Page
-```
-![Details Page](images/details.png)
-```
-
-### About Page
-```
-![About Page](images/about.png)
-```
-
-*(Create an `images` folder in your repository and place screenshots there.)*
+<img width="1352" height="600" alt="1" src="https://github.com/user-attachments/assets/8ee8efe5-c222-4266-8c93-4aa51950e9bf" />
 
 ---
 
@@ -153,12 +115,15 @@ Possible enhancements for this project:
 - Implement **checkout and payment system**
 - Improve **mobile responsiveness**
 - Add **product categories**
+- Deploy on live database like firebase or mongoDB
 
 ---
 
 ## 👨‍💻 Author
 
 **Muddasir Azam**
+GitHub  
+https://github.com/MuddasirAzam-065
 
 ---
 
